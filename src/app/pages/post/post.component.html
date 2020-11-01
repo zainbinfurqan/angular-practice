@@ -1,0 +1,16 @@
+    <div class="d-flex flex-column bd-highlight mb-3 border flex-wrap justify-content-center">
+        <div  key={index} class="post-card card p-2 bd-highlight border"  *ngFor="let item of posts; let i = index">
+            <img src='https://dummyimage.com/300x200/000/fff.png' class="card-img-top" alt="..." />
+                <div class ="d-flex flex-row bd-highlight mb-3 p-1">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                  <div class='d-flex flex-row bd-highlight mb-3'>
+                    <div class="p-2 bd-highlight like-btn" >
+                      <p class='m-0 p-0'>like</p>
+                    </div>
+                    <div (click)="getComments(item,i)" class="p-2 bd-highlight comment-btn">
+                      <p class='m-0 p-0'>Comments</p>
+                    </div>
+        </div>
+    </div>
+

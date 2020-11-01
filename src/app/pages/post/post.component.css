@@ -1,0 +1,17 @@
+
+@media only screen and (min-width: 600px) {
+    .post-card {
+      width: 500px;
+      margin: 0 auto;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+  }
+.like-btn:hover{
+    background-color: #efefef;
+    border-radius: 5px;
+  }
+.comment-btn:hover{
+    background-color: #efefef;
+    border-radius: 5px;
+  }
